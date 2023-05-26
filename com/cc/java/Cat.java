@@ -7,7 +7,7 @@ public class Cat {
 	
 	public Cat(String name) {
 		this.name = name;
-		System.out.println(getAttributes()); 
+		App.output(getAttributes()); 
 	}
 	
 	public String getAttributes() {
